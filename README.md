@@ -208,7 +208,8 @@ Several factors explain deviations between this analysis and the official BfG fi
 - **Missing municipalities in the official BfG data:** Several municipalities (Altötting, Tüßling, Teising, Haiming, and others) show no values in the BfG Geoportal. This possibly reflects incomplete coverage in the 2019 reporting cycle rather than zero flood risk, given that this analysis identifies significant exposure in those areas.
 
 <img width="647" height="416" alt="image" src="https://github.com/user-attachments/assets/7e013e52-fb8d-4b44-a275-6914c6190ba6" />
-*The official map shows no number for affected inhabitants for Altötting in any scenario depsite there being residential buldings in the municipality that are withing flood risk zones (here: extreme risk)*
+
+*The official numbers state zero affected inhabitants for Altötting in all scenarios depsite there being residential buldings in the municipality that are within flood risk zones (here: extreme sceanrio)*
 
 - **Data vintage:** The BfG portal shows data from the 2019 reporting cycle. This analysis uses 2022 Census data and flood hazard polygons downloaded in April 2026. Population changes and updated flood models might contribute to differences.
 
