@@ -181,7 +181,7 @@ FULL OUTER JOIN result_haeufig c ON a.gemeinde = c.gemeinde
 ORDER BY gemeinde;
 ```
 
-**Preserving all municipalities:** `FULL OUTER JOIN` ensures municipalities that appear in only one or two scenarios are still included, with `COALESCE(..., 0)` replacing NULLs with zeros.
+**Preserving all municipalities:** `FULL OUTER JOIN` ensures municipalities that appear in only one or two scenarios are still included.
 
 **Avoiding NULL values in the table** `COALESCE(number_of_people, 0)` is used to ensure that municipalities appearing in only _some_ flood scenarios still show a value of 0 instead of NULL, keeping the output table complete and readable.
 
