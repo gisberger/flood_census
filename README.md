@@ -98,7 +98,7 @@ After a few adjustments, I successfully used it to import all of the .shp files 
 
 The script was run in a previously set-up virtual environment.
 
-### 3. CRS Mismatches — The First Real Bug
+### 3. CRS Mismatches
 
 The initial cross-layer queries returned zero results. Diagnosis via SQL revealed three different coordinate reference systems across the imported tables (25832, 4326, 3857). This was resolved by reprojecting all layers to EPSG:25832 using `ST_Transform`:
 
