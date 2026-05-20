@@ -199,11 +199,16 @@ Using fuzzy name matching (`LIKE '%' || name || '%'`), the join was able handle 
 
 Several factors explain deviations between this analysis and the official BfG figures:
 
-- **Population data resolution:** The BfG/LfU approach distributes population to individual residential buildings using ATKIS Basis-DLM land use data, possibly even having access to non-public population data. This analysis uses a 100m census grid where population is spread uniformly across each cell, including portions that may be roads, gardens, or fields.
+- **Population data resolution:** The BfG/LfU approach distributes population to individual residential buildings using ATKIS Basis-DLM land use data, possibly even having access to non-public data such as reinforcements of buildings that make them fall below a threshold. 
+  
+- This analysis uses a 100m census grid where population is spread uniformly across each cell, including portions that may be roads, gardens, or fields.
 
 - **Building geometry not considered:** This analysis treats the flood zone as a 2D surface. The official assessment considers building footprints and may account for water depth in relation to building use, which this analysis does not. This could explain the general tendency to over-estimating the number of affected population.
 
 - **Missing municipalities in the official BfG data:** Several municipalities (Altötting, Tüßling, Teising, Haiming, and others) show no values in the BfG Geoportal. This possibly reflects incomplete coverage in the 2019 reporting cycle rather than zero flood risk, given that this analysis identifies significant exposure in those areas.
+
+<img width="647" height="416" alt="image" src="https://github.com/user-attachments/assets/7e013e52-fb8d-4b44-a275-6914c6190ba6" />
+*The official map shows no number for affected inhabitants for Altötting in any scenario depsite there being residential buldings in the municipality that are withing flood risk zones (here: extreme risk)*
 
 - **Data vintage:** The BfG portal shows data from the 2019 reporting cycle. This analysis uses 2022 Census data and flood hazard polygons downloaded in April 2026. Population changes and updated flood models might contribute to differences.
 
