@@ -76,7 +76,7 @@ Geodata in different formats can be imported with a few clicks. However, only on
 
 2) _Via the command line - processes one file each time but is repeatable_
 
-In order to add any spatial data to the database, I first had to enter the container
+In order to add any spatial data to the database, I would first have to enter the container
 
 ```psql -h localhost -U <Benutzer> -d <DB Name>```
 
