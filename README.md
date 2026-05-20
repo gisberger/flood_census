@@ -268,4 +268,3 @@ This project started out without the intention of posting to GitHub and Git was 
 gisberger (Andreas Giglberger)
 
 ---
- assessment, and field-based infiltration measurements. The overarching project uses the same PostGIS infrastructure and will be documented separately.
