@@ -199,7 +199,7 @@ Using fuzzy name matching (`LIKE '%' || name || '%'`), the join was able handle 
 
 Several factors explain deviations between this analysis and the official BfG figures:
 
-- **Population data resolution:** The BfG/LfU approach distributes population to individual residential buildings using ATKIS Basis-DLM land use data, possibly even having access to non-public data such as reinforcements of buildings that make them fall below a threshold. 
+- **Population data resolution:** The BfG/LfU approach distributes population to individual residential buildings using ALKIS Basis-DLM land use data, possibly even having access to non-public data such as reinforcements of buildings that make them fall below a threshold. 
   
 - This analysis uses a 100m census grid where population is spread uniformly across each cell, including portions that may be roads, gardens, or fields.
 
@@ -214,7 +214,7 @@ Several factors explain deviations between this analysis and the official BfG fi
 - **Data vintage:** The BfG portal shows data from the 2019 reporting cycle. This analysis uses 2022 Census data and flood hazard polygons downloaded in April 2026. Population changes and updated flood models might contribute to differences.
 
 
-**These differences will be explored in a follow-up analysis, incorporating ATKIS building footprints and possibly terrain for a more precise population distribution.**
+**These differences will be explored in a follow-up analysis, incorporating ALKIS building footprints and possibly terrain for a more precise population distribution.**
 
 ---
 
@@ -251,7 +251,7 @@ Several factors explain deviations between this analysis and the official BfG fi
 
 ## Future Enhancements
 
-- **ATKIS building footprint integration:** Distributing population to residential building polygons instead of a 100m grid would significantly improve spatial precision and allow direct comparison with the official BfG methodology.
+- **ALKIS building footprint integration:** Distributing population to residential building polygons instead of a 100m grid would significantly improve spatial precision and allow direct comparison with the official BfG methodology.
 - **Flood depth analysis:** Incorporating the LfU's water depth rasters (Wassertiefenkarten) would enable damage potential estimation, not just exposure counting.
 - **Contamination pathway analysis:** Overlaying flood zones with Trinkwasserschutzgebiete and hydrogeological permeability data (HÜK250) to identify where floodwater may infiltrate into drinking water aquifers - a separate analysis currently in development.
 
