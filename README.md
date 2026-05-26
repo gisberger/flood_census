@@ -24,7 +24,7 @@ The analysis produced population exposure estimates for three flood scenarios ac
 
 ### Final Comparison Table
 
-| Municipality | HQ100 (own) | HQ100 (BfG) | HQextrem (own) | HQextrem (BfG) | HQhäufig (own) | HQhäufig (BfG) |
+| Municipality | HQ100 (own) | HQ100 (BfG) | HQfrequent (own) | HQfrequent (BfG) | HQextreme (own) | HQextreme (BfG) |
 |---|---|---|---|---|---|---|
 | Altötting | 755 | 0 | 3267 | 0 | 0 | 0 |
 | Burghausen | 128 | 30 | 474 | 1 | 105 | 190 |
